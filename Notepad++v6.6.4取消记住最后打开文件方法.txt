@@ -1,0 +1,2 @@
+Notepad++v6.6.4取消记住最后打开文件方法 
+菜单栏-->设置-->首选项-->备份-->把"Remember current session for next launch"前的勾去掉即可-->点击关闭按钮即可生效 

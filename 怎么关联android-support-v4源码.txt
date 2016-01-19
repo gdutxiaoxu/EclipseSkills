@@ -1,0 +1,20 @@
+怎么关联android-support-v4源码
+
+
+问题：使用viewpager或者fragmentActivity等一些v4包下的类，当我们按F3时无法查看到源码，这个时候就需要我们关联该源码，该源码的关联与android源码的关联不一样。
+
+解决办法：
+
+1、首先在工程的libs目录下创建一个配置文件：android-support-v4.jar.properties（建议这样）
+
+2、查找自己安装的SDK的目录下的android-support-v4的src源码地址
+
+本人的为：E:\android-sdk_r24.3.2-windows\android-sdk-windows\extras\android\support\v4\src
+
+3、编辑android-support-v4.jar.properties文件为：（注意是双斜杠）
+
+src = E:\\android-sdk_r24.3.2-windows\\android-sdk-windows\\extras\\android\\support\\v4\\src
+
+4、关闭自己的工程后再打开，此时进去选择ViewPager后F3就能看到源码了。
+
+5、恭喜：android-support-v4 源码已经成功的关联上。
